@@ -1,0 +1,27 @@
+{
+  "name": "bft-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFTorres/BFT-website.git"
+  },
+  "keywords": [],
+  "author": "Bernardo Fonseca Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BFTorres/BFT-website/issues"
+  },
+  "homepage": "https://github.com/BFTorres/BFT-website#readme",
+  "dependencies": {
+    "jump.js": "^1.0.2",
+    "sal.js": "^0.8.5"
+  }
+}
