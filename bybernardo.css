@@ -688,11 +688,11 @@ span.subheading {
 }
 
 .tl {
-    text-align: left;
+    text-align: left !important;
 }
 
 .tc {
-    text-align: center;
+    text-align: center !important;
 }
 
 .fs18 {
@@ -1371,7 +1371,17 @@ bybernardo | links
     border: 4px solid #0A0A0A;
     justify-content: center;
     font-size: 52px;
-    
+}
+.ebook-brutalist-card {
+    height: 371px;
+    border: 4px solid #0A0A0A;
+    font-size: 52px;
+    background-image: url('images/ebook-ad-index.png');
+    background-size: contain;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    justify-content: center;
 }
 .header-card {
     height: 130px;
@@ -1387,6 +1397,7 @@ bybernardo | links
 }
 @media only screen and (max-width: 992px) {
     .brutalist-card,
+    .ebook-brutalist-card,
     .header-card,
     .logo-card {
         height: 110px;
@@ -1394,12 +1405,14 @@ bybernardo | links
     .logo-card {
         justify-content: center;
     }
-    .brutalist-card {
+    .brutalist-card,
+    .ebook-brutalist-card {
         font-size: 29px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1300px) {
-    .brutalist-card {
+    .brutalist-card,
+    .ebook-brutalist-card {
         height: 280px;
         font-size: 49px;
     }
@@ -1510,3 +1523,4 @@ footer .row .col {
 .header-link:hover {
     color: #206483;
 }
+
