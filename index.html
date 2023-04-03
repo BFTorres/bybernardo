@@ -34,9 +34,10 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <header id="home" class="bg-header animated fadeIn container">
+    <header id="home" class="bg-header vh-100 animated fadeIn container">
         <section id="" class="center">
-          <div class="row">
+          <div class="row  mt-150 mb-150">
+            <div id="animated-example" class="col s12 animated fadeIn" style="text-transform: uppercase !important;"><!-- 
             <lottie-monkey class="container coming-soon">
                 <div class=" show-on-small hide-on-med-and-up">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -50,24 +51,61 @@
                         background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay>
                     </lottie-player>
                 </div> 
-            </lottie-monkey>
-            <div id="animated-example" class="col s12 animated fadeIn">
+            </lottie-monkey> -->
+            
                 <a href="../index.html"><img src="./images/big-BFTLogo-crimson.png" 
-                    class="logo-img-construction" alt="BFT"></a>
-                <h5 class="hide-on-small-only">This page is temporarily unavailable due to updates.</h5>
-                <h5 class="hide-on-small-only">Come back soon!</h5>
-                <p class="show-on-small hide-on-med-and-up">This page is temporarily unavailable due to updates.</p>
-                <p class="show-on-small hide-on-med-and-up">Come back soon!</p>
+                    class="logo-img-construction mb-50" alt="BFT"></a>
+                <h5 class="hide-on-small-only font-26">This application is being updated.</h5>
+                <h5 class="hide-on-small-only font-26">Come back soon!</h5>
+                <p class="show-on-small hide-on-med-and-up font-26">This application is being updated.</p>
+                <p class="show-on-small hide-on-med-and-up mb-50 font-26">Come back soon!</p>
             <!-- button? -->
                 <!-- <div class="block center font1 mt-50 mb-250">
                     <a href="../index.html" class="button superlarge nav-link mt-15">
                     Return
                 </a> -->
+                  <div class="row mt-100">
+                    <div class="col s12 center">
+                      <a class="pr-15" href="https://github.com/BFTorres" target="_blank">
+                        <img class="social-media-img hover-github" src="images/Vectorgithub.png" alt="GitHub"></a>
+                      <a class="pr-15" href="https://www.linkedin.com/in/bernardo-fonseca-torres/" target="_blank">
+                        <img class="social-media-img hover-linkedin" src="images/Vectorlinkedin.png" alt="LinkedIn"></a>
+                      <a class="pr-15" href="#">
+                        <img class="social-media-img hover-medium" src="images/Vectormedium.png" alt="Medium"></a>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
         </section>
       </header>
+      <footer id="footer" class="page-footer">
+        <div class="footer-copyright font2 center">
+          <div class="container font1">
+            <div class="row">
+              <div class="col s6 logo-footer">
+                <a href="index.html"><img src="images/big-BFTLogo-black.png" class="img-footer" alt="BFT"></a>
+              </div>
+              <div class="col s6 arrow-up">
+                <a href="#home" class="button-tri">
+                  <img src="images/up.svg">
+                </a>
+              </div>
+            </div>
+            <div class=" footer-link">
+              <div class="left ">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Bernardo Fonseca Torres
+              </div>
+              <a href="/pages/legal.html" target="_blank" class="right crimson">
+                Imprint
+              </a>
+            </div>
+          </div>
+      </footer>
 </body>
 <script src="index.js" async defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

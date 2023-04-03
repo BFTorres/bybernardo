@@ -1060,6 +1060,9 @@ span.subheading {
     font-size: 56px;
 }
 
+.font-26 {
+    font-size: 26px !important;
+}
 
 
 #staggered-test {opacity: 0;}
@@ -1524,3 +1527,6 @@ footer .row .col {
     color: #206483;
 }
 
+.vh-100 {
+    height: 100vh;
+}

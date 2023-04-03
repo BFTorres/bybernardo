@@ -1478,3 +1478,7 @@ span.subheading {
     color: #ffffff;
     vertical-align: middle;
 }
+
+.font-26 {
+    font-size: 26px !important;
+}
